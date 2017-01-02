@@ -39,6 +39,11 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.1.4)
+    autoprefixer-rails (6.6.0)
+      execjs
+    bootstrap-sass (3.3.6)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.2)
     byebug (9.0.0)
     coffee-rails (4.2.1)
@@ -148,11 +153,13 @@ GEM
     websocket-driver (0.6.4)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
+    wit (4.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (= 3.3.6)
   byebug (= 9.0.0)
   coffee-rails (= 4.2.1)
   jbuilder (= 2.4.1)
@@ -169,6 +176,7 @@ DEPENDENCIES
   tzinfo-data
   uglifier (= 3.0.0)
   web-console (= 3.1.1)
+  wit
 
 BUNDLED WITH
    1.13.0
